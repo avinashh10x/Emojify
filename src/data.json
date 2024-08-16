@@ -1,0 +1,247 @@
+[
+    {
+        "id": 1,
+        "name": "3 Idiots",
+        "emoji": "🎓😂🚀",
+        "hint": "A comedy about three engineering students",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 2,
+        "name": "Kabhi Khushi Kabhie Gham",
+        "emoji": "👪💖🎉",
+        "hint": "A Bollywood family drama",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 3,
+        "name": "Dangal",
+        "emoji": "🤼‍♀️🏅💪",
+        "hint": "A film about wrestling and family",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 4,
+        "name": "Zindagi Na Milegi Dobara",
+        "emoji": "🌍🚗🎉",
+        "hint": "A road trip film with friends",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 5,
+        "name": "Dilwale Dulhania Le Jayenge",
+        "emoji": "❤️🚂🏞️",
+        "hint": "A romantic tale of love and tradition",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 6,
+        "name": "Lagaan",
+        "emoji": "🏏🌾👑",
+        "hint": "A story of a village fighting against British rule through cricket",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 7,
+        "name": "Sholay",
+        "emoji": "🐎🔫🔥",
+        "hint": "A classic tale of friendship and revenge",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 8,
+        "name": "Mughal-e-Azam",
+        "emoji": "👑💔🎭",
+        "hint": "A historical drama about love and betrayal",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 9,
+        "name": "Chennai Express",
+        "emoji": "🚂💑🏞️",
+        "hint": "A fun-filled journey of love on a train",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 10,
+        "name": "Bajrangi Bhaijaan",
+        "emoji": "🕌👧🇮🇳",
+        "hint": "A man helps a mute girl find her family across the border",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 11,
+        "name": "PK",
+        "emoji": "👽🔍😂",
+        "hint": "An alien explores humanity's beliefs",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 12,
+        "name": "Bahubali: The Beginning",
+        "emoji": "🗡️👑🏰",
+        "hint": "The rise of a legendary warrior prince",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 13,
+        "name": "Bahubali: The Conclusion",
+        "emoji": "🗡️👑🏰",
+        "hint": "The epic conclusion to the saga of a warrior prince",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 14,
+        "name": "Dil Chahta Hai",
+        "emoji": "👬🏝️🎉",
+        "hint": "Three friends navigate love and life",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 15,
+        "name": "Kal Ho Naa Ho",
+        "emoji": "💔⌛😢",
+        "hint": "A story about living life to the fullest despite a ticking clock",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 16,
+        "name": "Barfi!",
+        "emoji": "🤐💖🎭",
+        "hint": "A heartwarming tale of a mute man and his unique love stories",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 17,
+        "name": "Rang De Basanti",
+        "emoji": "🎨🧑‍🎤🇮🇳",
+        "hint": "A group of friends inspired by India's freedom struggle",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 18,
+        "name": "Bhaag Milkha Bhaag",
+        "emoji": "🏃🏅🇮🇳",
+        "hint": "The inspiring story of a champion runner",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 19,
+        "name": "Swades",
+        "emoji": "🚀🇮🇳🏡",
+        "hint": "A NASA scientist returns to his roots in rural India",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 20,
+        "name": "Gully Boy",
+        "emoji": "🎤🏙️🎶",
+        "hint": "A young man's rise in the world of street rap",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 21,
+        "name": "Padmaavat",
+        "emoji": "👸🏰🔥",
+        "hint": "A queen's valor against an invader",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 22,
+        "name": "Uri: The Surgical Strike",
+        "emoji": "🎯🇮🇳🪖",
+        "hint": "A film on India's counter-terrorism operation",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 23,
+        "name": "Andhadhun",
+        "emoji": "🎹👁️🔫",
+        "hint": "A blind pianist gets caught up in a murder mystery",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 24,
+        "name": "Queen",
+        "emoji": "👑✈️🌍",
+        "hint": "A young woman embarks on a solo honeymoon",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 25,
+        "name": "Tanu Weds Manu",
+        "emoji": "💍😂💑",
+        "hint": "An unconventional love story between opposites",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 26,
+        "name": "Stree",
+        "emoji": "👻🏚️😂",
+        "hint": "A horror-comedy about a spirit haunting a village",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 27,
+        "name": "Article 15",
+        "emoji": "⚖️📰👮",
+        "hint": "A story about caste-based discrimination in India",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 28,
+        "name": "Drishyam",
+        "emoji": "🎥🕵️‍♂️🤫",
+        "hint": "A man uses his knowledge of films to cover up a crime",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 29,
+        "name": "Kabir Singh",
+        "emoji": "💉💔🥃",
+        "hint": "A troubled surgeon's destructive love story",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 30,
+        "name": "Bajrangi Bhaijaan",
+        "emoji": "🕌👧🇮🇳",
+        "hint": "A man helps a mute girl find her family across the border",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 31,
+        "name": "Deewar",
+        "emoji": "🧱💥🪓",
+        "hint": "A tale of two brothers on different sides of the law",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 32,
+        "name": "A Wednesday!",
+        "emoji": "💣🕒🧓",
+        "hint": "A common man's stand against terrorism",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 33,
+        "name": "Don",
+        "emoji": "😎🔫🎩",
+        "hint": "A clever criminal mastermind and his doppelganger",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 34,
+        "name": "Dhoom",
+        "emoji": "🏍️💨🔫",
+        "hint": "A high-octane thriller about a gang of bikers",
+        "origin": "Bollywood"
+    },
+    {
+        "id": 35,
+        "name": "Rockstar",
+        "emoji": "🎸🎤💔",
+        "hint": "A musician's journey through fame and heartbreak",
+        "origin": "Bollywood"
+    }
+]
