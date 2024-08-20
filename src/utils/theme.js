@@ -1,4 +1,3 @@
-// src/theme.js
 import { createTheme } from '@mui/material';
 
 const lightTheme = createTheme({
@@ -20,6 +19,24 @@ const lightTheme = createTheme({
           '&:hover': {
             backgroundColor: '#FFB300', // Darker yellow on hover
           },
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#2196F3', // Blue background for cards
+          color: '#000000', // Black text color
+          borderRadius: 8, // Rounded corners for cards
+          boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', // Subtle shadow for depth
+        },
+      },
+    },
+    MuiBox: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#4CAF50', // Green background for boxes
+          color: '#000000', // Black text color
         },
       },
     },
@@ -45,6 +62,24 @@ const darkTheme = createTheme({
           '&:hover': {
             backgroundColor: '#FFB300', // Darker yellow on hover
           },
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#2196F3', // Blue background for cards
+          color: '#FFFFFF', // White text color in dark mode
+          borderRadius: 8, // Rounded corners for cards
+          boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)', // Darker shadow for depth
+        },
+      },
+    },
+    MuiBox: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#4CAF50', // Green background for boxes
+          color: '#FFFFFF', // White text color in dark mode
         },
       },
     },

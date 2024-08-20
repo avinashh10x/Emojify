@@ -1,6 +1,7 @@
+// src/component/MovieGuessGame.js
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, TextField, Button, Card, CardContent } from '@mui/material';
-import MovieListing from '../functioning/MovieListing'; // Adjust the import path as needed
+import MovieListing from '../functioning/MovieListing';
 import ConfettiExplosion from 'react-confetti-explosion';
 
 const MovieGuessGame = () => {
@@ -22,35 +23,30 @@ const MovieGuessGame = () => {
         if (currentMovie) {
             setHint(currentMovie.hint);
             console.log(currentMovie);
-            
         }
     }, [currentMovie]);
 
     const handleSubmit = () => {
         if (movieListing.checkAnswer(currentMovie.id, userGuess)) {
             setFeedback('Correct! 🎉');
-            setScore((prevScore) => prevScore + 1); // Increase score
+            setScore((prevScore) => prevScore + 1);
             setIsExploding(true);
 
-            // Get the next movie
             setCurrentMovie(movieListing.getNextMovie());
             setUserGuess('');
-            setHint(''); // Clear hint when moving to the next movie
+            setHint('');
 
-            // Hide the confetti and feedback after a short duration
             setTimeout(() => {
                 setIsExploding(false);
                 setFeedback('');
             }, 3000);
         } else {
             setFeedback('Try Again! 😔');
-
-            // Hide feedback after 3 seconds
             setTimeout(() => setFeedback(''), 3000);
         }
     };
 
-    if (!currentMovie) return null; // Handle loading state or fallback
+    if (!currentMovie) return null;
 
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 2 }}>
@@ -58,7 +54,7 @@ const MovieGuessGame = () => {
 
             <Card sx={{ minWidth: 275, textAlign: 'center', padding: 2 }}>
                 <CardContent>
-                    <Typography variant="h2"  >{currentMovie.emoji}</Typography>
+                    <Typography variant="h2">{currentMovie.emoji}</Typography>
                 </CardContent>
             </Card>
 
@@ -89,7 +85,7 @@ const MovieGuessGame = () => {
                 </Typography>
             )}
 
-            <Card sx={{ margin: 2}}>
+            <Card sx={{ margin: 2 }}>
                 <CardContent>
                     <Typography variant="h6">Score: {score}</Typography>
                 </CardContent>

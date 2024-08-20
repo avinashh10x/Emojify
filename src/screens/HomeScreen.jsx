@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import MovieGuessGame from '../component/MovieGuessGame';
+import ToggleThemeButton from '../component/ToggleThemeButton';
 
 function HomeScreen() {
     return (
@@ -16,6 +17,7 @@ function HomeScreen() {
                 padding: 2
             }}
         >
+            <ToggleThemeButton />
             <Typography 
                 variant="h2" 
                 component="h1" 
